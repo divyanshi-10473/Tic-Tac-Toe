@@ -59,7 +59,7 @@ const winner=()=>{
         if(d1!="" && d2!="" && d3!=""){
             if(d1===d2 && d2===d3 ){
                 div=document.createElement("div");
-                div.innerHTML=`🎉Congratulation🎉 <br>Player ${d1} is winner`
+                div.innerHTML=`Congratulation🎉 <br>Player ${d1} is winner`
                  win.append(div);
                  win.append(startbtn);
                 box.forEach(e=>{
